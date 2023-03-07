@@ -1,0 +1,1 @@
+# FastSpell Dictionaries
