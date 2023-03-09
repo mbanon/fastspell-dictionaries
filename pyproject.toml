@@ -1,0 +1,36 @@
+[project]
+name = "fastspell-dictionaries"
+version = "1.0"
+license = {file = "LICENSE"}
+readme = "README.md"
+description = "Hunspell dictionaries for FastSpell"
+requires-python = ">=3.8"
+
+[[project.authors]]
+name = "Prompsit Language Engineering"
+email = "info@prompsit.com"
+
+[[project.maintainers]]
+name = "Marta Bañon"
+email = "mbanon@prompsit.com"
+[[project.maintainers]]
+name = "Jaume Zaragoza"
+email = "jzaragoza@prompsit.com"
+
+
+[build-system]
+requires = [ "setuptools>=61.2",]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+'*' = [ "*.aff", "*.dic", "*.license", ]
+
+[project.urls]
+Homepage = "https://github.com/mbanon/fastspell"
+"FastSpell on GitHub" = "https://github.com/mbanon/fastspell"
+"Prompsit Language Engineering" = "http://prompsit.com"
+Paracrawl = "https://paracrawl.eu"
+MaCoCu = "https://macocu.eu"
+HPLT = "https://hplt-project.org"
+
+
