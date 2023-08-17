@@ -1,6 +1,6 @@
 # FastSpell Dictionaries
 
-Dictionaries AF,AR, BS, SR, SQ are from https://github.com/LibreOffice/dictionaries
+Dictionaries AF, AR, BS, GU, SR, SQ are from https://github.com/LibreOffice/dictionaries
 
 HBS dictionaries by Nikola Ljubešić.
 
