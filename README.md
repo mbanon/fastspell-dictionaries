@@ -6,7 +6,7 @@ FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
 HBS dictionaries by Nikola Ljubešić.
 
-KK, KY, SO,  TT dictionaries from http://hlt.sztaki.hu/
+ID, KK, KY, SO, TT dictionaries from http://hlt.sztaki.hu/
 
 KN dictionaries from https://github.com/mgharish/kn-hunspell/
 
