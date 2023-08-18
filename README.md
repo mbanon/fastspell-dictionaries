@@ -2,7 +2,7 @@
 
 Dictionaries AN, AF, AR, BE,  BN, BS, GU, HI, LO, NE, SR, SQ, TH are from https://github.com/LibreOffice/dictionaries
 
-AZ, ID, KK, KY, SO, TE, TK, TT dictionaries from http://hlt.sztaki.hu/
+AZ, ID, KK, KY, SO, TE, TK, TT, UZ dictionaries from http://hlt.sztaki.hu/
 
 FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
