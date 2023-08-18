@@ -2,6 +2,8 @@
 
 Dictionaries AF, AR, BN, BS, GU, HI, NE, SR, SQ are from https://github.com/LibreOffice/dictionaries
 
+FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
+
 HBS dictionaries by Nikola Ljubešić.
 
 KK, KY, SO,  TT dictionaries from http://hlt.sztaki.hu/
