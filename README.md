@@ -1,6 +1,6 @@
 # FastSpell Dictionaries
 
-Dictionaries AF, AR, BN, BS, GU, HI, NE, SR, SQ are from https://github.com/LibreOffice/dictionaries
+Dictionaries AF, AR, BE,  BN, BS, GU, HI, NE, SR, SQ are from https://github.com/LibreOffice/dictionaries
 
 FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
