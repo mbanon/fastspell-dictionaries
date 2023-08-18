@@ -4,7 +4,7 @@ Dictionaries AF, AR, BN, BS, GU, HI, NE, SR, SQ are from https://github.com/Libr
 
 HBS dictionaries by Nikola Ljubešić.
 
-KK, KY, TT dictionaries from http://hlt.sztaki.hu/
+KK, KY, SO,  TT dictionaries from http://hlt.sztaki.hu/
 
 KN dictionaries from https://github.com/mgharish/kn-hunspell/
 
