@@ -14,6 +14,8 @@ ML dictionaries from http://git.savannah.gnu.org/cgit/smc.git/tree/spellcheck/hu
 
 MR dictionaries from https://github.com/Shreeshrii/hindi-hunspell/blob/master/Marathi
 
+MS dictionaries from https://sourceforge.net/projects/aoo-extensions/
+
 TA dictionaries are from https://github.com/thamizha/thamizha-solthiruthi
 
 UR dictionaries are from the Arch Linux repository
