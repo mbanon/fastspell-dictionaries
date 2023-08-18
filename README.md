@@ -18,6 +18,8 @@ MS dictionaries from https://sourceforge.net/projects/aoo-extensions/
 
 TA dictionaries are from https://github.com/thamizha/thamizha-solthiruthi
 
+TG dictionaries from https://www.tajlingvo.tj/en/tajik-hunspell-dictionary
+
 UR dictionaries are from the Arch Linux repository
 
 The rest are from https://github.com/wooorm/dictionaries
