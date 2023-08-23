@@ -1,18 +1,9 @@
-    GNU Aspell Kannada Word List Package
+1.0.0: 2009-07-06 release.
+--
+This dictionary is based on a word list of around 60,000 Kannada words that
+have been collected from various open content articles crawled through wikipedia and other open blogs licensed under CC.The Initial version of the dictionary is done Ramakrishna Reddy Yekulla <ramkrsna@gmail.com> . 
+--
 
-    Kannada words checked by Harisha 
-	from various Kannada dictionaries to help in Kannada writing
-	
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
+Changelog:
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+1.0.0: 2009-07-06  Initial release of the Kannada Dictionary 
