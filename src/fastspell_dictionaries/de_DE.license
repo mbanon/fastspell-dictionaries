@@ -1,15 +1,17 @@
-igerman98 - dictionaries for German language
-Copyright (C) 1999-2016 BjÃ¶rn Jacke <bjoern@j3e.de>.
+Bei dem Wörterbuch xxx_frami handelt es sich um ein Addon. Es enthält
+alle Wörter des Basiswörterbuchs, zusätzlich jedoch etliche, die entweder
+im Basiswörterbuch noch fehlen oder die nicht unbedingt zum Kernwortschatz
+des Deutschen gehören. Die zusätzlichen Aufnahmen sind ungeprüft.
+Dieses Wörterbuch basiert auf dem igerman98 Ispell-Wörterbuch, zu finden
+unter https://www.j3e.de/ispell/igerman98/ .
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License version 2 or 3 as
-    published by the Free Software Foundation.
+Das Wörterbuch und alle enthaltenen Wortlisten sind lizenziert unter der
+GNU GPL, Version 2 oder 3.
+Fehlermeldungen oder Ergänzungswünsche können gemailt werden an:
+Franz Michael Baumann <fm.baumann@uni-muenster.de>
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Autor des Grundwörterbuchs:
+Bjoern Jacke <bjoern@j3e.de>
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Autor der Erweiterung
+Franz Michael Baumann <fm.baumann@uni-muenster.de>
