@@ -6,7 +6,7 @@ AF, AST, AZ, CS, CY, ES, FA, IS, KK, KN, KY, LV, MK, MN, MR, SK, SO, TE, TI, TR,
 
 AM dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/am_ET
 
-AWA dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
+AWA and BHO dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
 
 FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
