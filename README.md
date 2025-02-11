@@ -8,6 +8,8 @@ AM dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/am_ET
 
 AWA and BHO dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
 
+MAI dictionaries from https://code.google.com/archive/p/bhashaghar/
+
 FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
 HBS dictionaries by Nikola Ljubešić.
