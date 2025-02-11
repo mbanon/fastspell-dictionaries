@@ -18,6 +18,8 @@ ML dictionaries from http://git.savannah.gnu.org/cgit/smc.git/tree/spellcheck/hu
 
 MS dictionaries from https://sourceforge.net/projects/aoo-extensions/
 
+SZL dictionaries from Firefox Extensions
+
 TA dictionaries are from https://github.com/thamizha/thamizha-solthiruthi
 
 TG dictionaries from https://www.tajlingvo.tj/en/tajik-hunspell-dictionary
