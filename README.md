@@ -4,7 +4,7 @@ Dictionaries AN, AR, BE, BN, BS, DE, EN, GUG, GU, HE, HI, ID, LO, NE, SC, SR, SQ
 
 AF, AST, AZ, CS, CY, ES, FA, IS, KK, KN, KY, LV, MK, MN, MR, SK, SO, TE, TI, TR, TT, UZ dictionaries from http://hlt.sztaki.hu/
 
-AM dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/am_ET
+AM and PAP dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/
 
 AWA and BHO dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
 
