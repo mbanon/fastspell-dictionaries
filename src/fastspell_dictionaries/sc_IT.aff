@@ -1,0 +1,1973 @@
+SET ISO8859-15
+#    Warning, this file includes special characters ISO-8859-15.
+#
+#    Affix file for Sardinian rev 0.0.1 Mes'e ladamini 2008
+#    
+#    Copyright 2008 (C) Francesco Capuzzi <f.capuzzi@tiscali.it>
+#    This MySpell version is based upon the ISpell version;
+#
+#    The ISpell version has been developed by: 
+#     - Mario Puddu (language expert)
+#     - Francesco Cheratzu (requirements and management)
+#     - Narciso Caddeo (implementation in ISpell)
+#        
+#     
+#    This is the first implementation for the Sardinian language.
+#    It may be considered an alpha version. The dictionary is quite complete 
+#    and it is based on the on-line version available at www.ditzionariu.org.
+#    The basic word list is made up of approx. 117.600 entries.
+#    
+#    Sardinian dictionary and affix file for myspell. 
+#    It is derived from the Italian version. 
+#    This program is free software; you can redistribute it and/or modify 
+#    it under the terms of the GNU General Public License as published 
+#    by the Free Software Foundation; either version 2 of the License. 
+#    You should have received a copy of the GNU General
+#    Public License along with this program; if not, write to the Free
+#    Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#    or write the authors. Part of this FREE software are: 
+#
+#    Copyright 2000-2002 (C) Mario Puddu <mapud@tiscali.it>
+#    Copyright 2000-2002 (C) Francesco Cheratzu <f.cheratzu@tiscali.it>
+#
+#    You must keep the authors' name in any further modifications.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#   Est unu vocabbolàriu de unas 117.600 peràulas de totu sa 
+#  limba sarda iscritas a una régula pertzisa e parívile fintzas: 
+#  - pro s'atzentu gràficu
+#         - faghet su plurale de númenes e azetivos e sos menguantes issoro
+#         - sa coniugatzione de sos verbos est limitadas a sos printzipales
+#  - e ponet sas formas enclíticas cun unu solu pronúmene, e duncas 
+#  - mancant sas formas cun duos e tres elementos enclíticos
+#
+
+# !!!!!!!!!!!!  Custa est una versioni sperimentali !!!!!!!!!!!!
+# Sa parti de is verbus campidanesus dh'eus torrada a fai : mancant perou unus cantus verbus irregularis
+# Is verbus logudoresus depint essi ancora revisionaus
+
+TRY airuenstcoldmgbphzfàívóúéjèòxâ
+
+
+# A (Puddu)
+# plurales de sos númenes, fintzas cun atzentu gràficu 
+# chi però no càmbiet zenia o abbertura de su singulare a su plurale :
+# norma generale (mesa > mesas, nuraghe > nuraghes, 
+# contoneri >contoneris, domo > domos, figu > figos, figus; fàuna/A).
+# Si zughet a.g. chi càmbiat zenia, fàghere su pl. (zénneru, zènneros,
+# grómeru, gròmeros).
+# A sos lemmas chi sunt númenes e agt. pònnere s’inditu de s’agt. (e 
+# si zughet a.g. chi càmbiat zenia pònnere sa forma f. cun s’inditu A 
+# e sa/sas forma/formas de su pl. chentza inditu).
+SFX A Y 6
+SFX A a as a
+SFX A e es e
+SFX A i is i
+SFX A o os o
+SFX A u os u
+SFX A u us u
+
+# B (Puddu)
+# pl. e menguante de númenes chentza atzentu gràficu 
+# e chi no annunghent síllabba. Sos chi no essint 
+# in /-a/, /-e/ o /-u/ pònnere su meng. cun inditu A. 
+# Si zughent a.g., pònnere fintzas su meng. cun s’inditu A 
+# e si sunt agt. puru pònnere s’inditu de s’agt
+# (faulànciu/D, faulancedhu/D).
+SFX B Y 20
+SFX B a as a  #  arzola/arzolas, cadira/-as (solu nf)
+SFX B a edha a  #  arzoledha
+SFX B a edhas a  #  arzoledhas
+SFX B e es e  #  muntone/muntones, contone/-es (solu nm)
+SFX B e edhu e  #  muntonedhu
+SFX B e edhos e  #  muntonedhos
+SFX B e edhus e  #  muntonedhus
+SFX B u os u  #  pipiu/pipios, furru (solu nm)
+SFX B u us u  #  pipius
+SFX B u edhu u  #  pipiedhu
+SFX B u edhos u  #  pipiedhos
+SFX B u edhus u  #  pipiedhus
+SFX B a as a  #  fromigas (solu nf)
+SFX B a hedha [cg]a  #  frommighedha
+SFX B a hedhas [cg]a  #  frommighedhas
+SFX B u os u  #  ortigos (solu nm)
+SFX B u us u  #  ortigus
+SFX B u hedhu [cg]u  #  ortighedhu
+SFX B u hedhos [cg]u  #  ortighedhos
+SFX B u hedhus [cg]u  #  ortighedhus
+
+# C (Puddu)
+# pl. e meng. de sos númenes chi annunghent síllabba (chentza a.g. e   
+# in /-a/ solu nf., in /-e/ o /-u/ solu nm.). Sos chi no essint in /-a/, 
+# /-e/ o /-u/, faghent su meng. e leant s’inditu A (as. domo, paneri).
+# Sos númenes chi tenent dópia possibbilidade: s’inditu A a sos duos meng. chi 
+# (as. domedha/A, domichedha/A).
+SFX C Y 45
+SFX C a as a  #  mata/matas, mesa/mesas (solu nf)
+SFX C a ichedha a  #  matichedha, mesichedha
+SFX C a ichedhas a  #  matichedhas
+SFX C a igedha a  #  matighedha
+SFX C a igedhas a  #  matighedhas
+SFX C a ighedha a  #  matighedha
+SFX C a ighedhas a  #  matighedhas
+SFX C a ixedha a  #  matixedha
+SFX C a ixedhas a  #  matixedhas
+SFX C e es e  #  monte/montes, ponte (solu nm)
+SFX C e is e  #  pontis
+SFX C e ichedhu e  #  pontichedhu
+SFX C e ichedhos e  #  pontichedhos
+SFX C e igedhu e  #  pontighedhu
+SFX C e igedhos e  #  pontighedhos
+SFX C e ighedhu e  #  pontighedhu
+SFX C e ighedhos e  #  pontighedhos
+SFX C e ixedhu e  #  pontixedhu
+SFX C e ixedhus e  #  pontixedhus
+SFX C u os u  #  binu/binos (solu nm)
+SFX C u us u  #  binus
+SFX C u ichedhu u  #  binichedhu
+SFX C u ichedhos u  #  binichedhos
+SFX C u igedhu u  #  binighedhu
+SFX C u igedhus u  #  binighedhos
+SFX C u ighedhu u  #  binighedhu
+SFX C u ighedhos u  #  binighedhos
+SFX C u ixedhu u  #  binixedhu
+SFX C u ixedhus u  #  binixedhus
+SFX C a hichedha [cg]a  #  bachichedha, pachichedha (solu nf)
+SFX C a hichedhas [cg]a  #  bachichedhas
+SFX C a higedha [cg]a  #  bachighedha
+SFX C a higedhas [cg]a  #  bachighedhas
+SFX C a highedha [cg]a  #  bachighedha
+SFX C a highedhas [cg]a  #  bachighedhas
+SFX C a hixedha [cg]a  #  bachixedha
+SFX C a hixedhas [cg]a  #  bachixedhas
+SFX C u hichedhu [cg]u  #  machichedhu, lochichedhu (solu nm)
+SFX C u hichedhos [cg]u  #  machichedhos
+SFX C u higedhu [cg]u  #  machighedhu
+SFX C u higedhus [cg]u  #  machighedhos
+SFX C u highedhu [cg]u  #  machighedhu
+SFX C u highedhos [cg]u  #  machighedhos
+SFX C u hixedhu [cg]u  #  machixedhu
+SFX C u hixedhus [cg]u  #  machixedhus
+
+# D (Puddu)
+# agetivus e plurali de is agetivus chi no faint unu menguanti; de is chi
+# faint su meng. e portant a.g., fai su meng. ca ispostat sa tónica e pònniri 
+# su matessi inditu a s’unu e a s’àteru:
+SFX D Y 4
+SFX D u a u  #  ispantosu/ ispantosa
+SFX D u as u  #  ispantosas
+SFX D u os u  #  ispantosos
+SFX D u us u  #  ispantosus (e gai faulànciu/D, faulancedhu/D)
+
+# E (Puddu)
+# azetivos e plurale de sos azetivos chentza a. gràficu e chentz’annunta 
+# de síllabba:
+SFX E Y 14
+SFX E u a u  #  abbirtiosu/a
+SFX E u as u  #  abbirtiosas
+SFX E u os u  #  abbirtiosos
+SFX E u us u  #  abbirtiosus
+SFX E u edhu u  #  abbirtiosedhu
+SFX E u edha u  #  abbirtiosedha
+SFX E u edhas u  #  abbirtiosedhas
+SFX E u edhos u  #  abbirtiosedhos
+SFX E u edhus u  #  abbirtiosedhus
+SFX E u hedhu [cg]u  #  abbirtiosedhu
+SFX E u hedha [cg]u  #  abbirtiosedha
+SFX E u hedhas [cg]u  #  abbirtiosedhas
+SFX E u hedhos [cg]u  #  abbirtiosedhos
+SFX E u hedhus [cg]u  #  abbirtiosedhus
+
+# F (Puddu)
+# azetivos e plurale de sos azetivos chentza a. gràficu ma cun 
+# annunta de síllabba:
+SFX F Y 36
+SFX F u a u  #  santu/santa, sanu/sana
+SFX F u as u  #  santas
+SFX F u os u  #  santos
+SFX F u us u  #  santus
+SFX F u ichedhu u  #  santichedhu
+SFX F u ichedhos u  #  santichedhos
+SFX F u ichedha u  #  santichedha
+SFX F u ichedhas u  #  santichedhas
+SFX F u igedhu u  #  santigedhu
+SFX F u igedhus u  #  santigedhus
+SFX F u igedha u  #  santigedha
+SFX F u igedhas u  #  santigedhas
+SFX F u ighedhu u  #  santighedhu
+SFX F u ighedhos u  #  santighedhos
+SFX F u ighedha u  #  santighedha
+SFX F u ighedhas u  #  santighedhas
+SFX F u ixedhu u  #  santixedhu
+SFX F u ixedhus u  #  santixedhus
+SFX F u ixedha u  #  santixedha
+SFX F u ixedhas u  #  santixedhas
+SFX F u hichedhu [cg]u  #  santichedhu
+SFX F u hichedhos [cg]u  #  santichedhos
+SFX F u hichedha [cg]u  #  santichedha
+SFX F u hichedhas [cg]u  #  santichedhas
+SFX F u higedhu [cg]u  #  santigedhu
+SFX F u higedhus [cg]u  #  santigedhus
+SFX F u higedha [cg]u  #  santigedha
+SFX F u higedhas [cg]u  #  santigedhas
+SFX F u highedhu [cg]u  #  santighedhu
+SFX F u highedhos [cg]u  #  santighedhos
+SFX F u highedha [cg]u  #  santighedha
+SFX F u highedhas [cg]u  #  santighedhas
+SFX F u hixedhu [cg]u  #  santixedhu
+SFX F u hixedhus [cg]u  #  santixedhus
+SFX F u hixedha [cg]u  #  santixedha
+SFX F u hixedhas [cg]u  #  santixedhas
+
+# G (Puddu)
+# agetivus e plurali de is agetivus sentza a.  
+# gràficu in -ore/-ori, -one/-oni:
+SFX G Y 6
+SFX G e a e  #  abbacadore /abbacadora /satzagone /satzagona
+SFX G e as e  #  abbacadoras /satzagonas
+SFX G e es e  #  abbacadores /satzagones
+SFX G i a i  #  satzagoni / satzagona /faidori /faidora
+SFX G i as i  #  satzagonas / faidoras
+SFX G i is i  #  satzagonis / faidoris
+
+# I (Puddu)
+# agetivus e plurali de is agetivus sentza a. g. chi essint in -eri
+SFX I Y 3
+SFX I i a i  #  bantaxeri/bantaxera
+SFX I i as i  #  bantaxeri/bantaxeras
+SFX I i is i  #  bantaxeri/bantaxeris
+
+##########################################################################
+#   Verbos de sa prima coniugatzione (-are, -ari, -ai)
+
+# H (Puddu)
+# I Coniugatzione in -are (chentza a. gràficu, pro vrb. 
+# chi tenent sa matessi pertzisa raighina in totu sas var. 
+# in -are; pro sos àteros inditu abbandha). A/c. Sas formas
+# de sa 2^ pers. sing. de s’imperativu + pron. pers. ponent
+# s’atzentu in sa raighina e rechedint de èssere iscritas 
+# in sa lista de su vocabbolàriu (as. istím-ami)
+SFX H Y 184
+SFX H are o are  #  istimo
+SFX H are as are  #  istimas
+SFX H are at are  #  istimat
+SFX H are amos are  #  istimamos       
+SFX H are amus are  #  istimamus
+SFX H are aus are  #  istimaus
+SFX H are ades are  #  istimades
+SFX H are aes are  #  istimaes
+SFX H are ates are  #  istimates
+SFX H are ant are  #  istimant
+SFX H are abo are
+SFX H are aia are
+SFX H are aio are
+SFX H are ao are
+SFX H are avo are
+SFX H are abas are
+SFX H are aias are
+SFX H are ais are
+SFX H are avas are
+SFX H are abat are
+SFX H are aiat are
+SFX H are ait are
+SFX H are avat are
+SFX H are abamus are
+SFX H are aiamus are
+SFX H are aiaus are
+SFX H are aimus are
+SFX H are avamus are
+SFX H are abazes are
+SFX H are aizis are
+SFX H are avazes are
+SFX H are abant are
+SFX H are aiant are
+SFX H are aint are
+SFX H are avant are
+SFX H are ei are
+SFX H are esi are
+SFX H are eis are
+SFX H are esis are
+SFX H are eit are
+SFX H are esit are
+SFX H are emus are
+SFX H are estis are
+SFX H are eint are
+SFX H are esint are
+SFX H are hei [cg]are
+SFX H are hesi [cg]are
+SFX H are heis [cg]are
+SFX H are hesis [cg]are
+SFX H are heit [cg]are
+SFX H are hesit [cg]are
+SFX H are hemus [cg]are
+SFX H are hestis [cg]are
+SFX H are heint [cg]are
+SFX H are hesint [cg]are
+SFX H are e are  #  chi istime
+SFX H are es are  #  chi istimes
+SFX H are et are  #  chi isse istimet
+SFX H are emas are  #  chi istimemas 
+SFX H are emus are  #  chi istimemus
+SFX H are edas are  #  chi istimedas
+SFX H are etas are  #  chi istimetas
+SFX H are ezas are  #  chi istimezas 
+SFX H are ent are  #  chi istiment 
+SFX H are he [cg]are  #  chi pache, lighe
+SFX H are hes [cg]are  #  chi paches, lighes
+SFX H are het [cg]are  #  chi pachet, lighet
+SFX H are hemas [cg]are  #  chi pachemas, lighemas
+SFX H are hemus [cg]are  #  chi pachemus, lighemus 
+SFX H are hedas [cg]are  #  chi pachedas, lighedas
+SFX H are hetas [cg]are  #  chi pachetas
+SFX H are hezas [cg]are  #  chi pachezas, lighezas
+SFX H are hent [cg]are  #  chi pachent, lighent
+SFX H are era are  #  chi istimera  
+SFX H are ere are  #  chi istimere
+SFX H are àrepo are  #  chi istimàrepo 
+SFX H are ares are  #  chi istimares
+SFX H are eras are  #  chi istimeras 
+SFX H are eres are  #  chi istimeres
+SFX H are aret are  #  chi istimaret
+SFX H are eret are  #  chi isse istimeret
+SFX H are àremus are  #  chi istimàremus
+SFX H are eremus are  #  chi istimeremus 
+SFX H are àrezis are  #  chi istimàrezis 
+SFX H are erezis are  #  chi istimerezis
+SFX H are arent are  #  chi istimarent  
+SFX H are erent are  #  chi istimerent 
+SFX H are hera [cg]are  #  chi istimera, lighera  
+SFX H are here [cg]are  #  chi istimere, lighere
+SFX H are heras [cg]are  #  chi istimeras 
+SFX H are heres [cg]are  #  chi istimeres
+SFX H are heret [cg]are  #  chi isse istimeret
+SFX H are heremus [cg]are  #  chi istimeremus 
+SFX H are herezis [cg]are  #  chi istimerezis
+SFX H are herent [cg]are  #  chi istimerent
+SFX H are a are  #  istima
+SFX H are ade are  #  istimade
+SFX H are ae are  #  istimae
+SFX H are ate are  #  istimate
+SFX H are àdemi are  #  istimàdemi
+SFX H are àemi are  #  istimàemi
+SFX H are àtemi are  #  istimàtemi
+SFX H are àdebbos are  #  istimàdebbos
+SFX H are àebbos are  #  istimàebbos
+SFX H are àtebbos are  #  istimàtebbos
+SFX H are àdennos are  #  istimàdennos
+SFX H are àennos are  #  istimàennos
+SFX H are àtennos are  #  istimàtennos
+SFX H are àdela are  #  istimàdela
+SFX H are àela are  #  istimàela
+SFX H are àtela are  #  istimàtela
+SFX H are àdelas are  #  istimàdelas
+SFX H are àelas are  #  istimàelas
+SFX H are àtelas are  #  istimàtelas
+SFX H are àdelu are  #  istimàdelu
+SFX H are àelu are  #  istimàelu
+SFX H are àtelu are  #  istimàtelu
+SFX H are àdelos are  #  istimàdelos
+SFX H are àelos are  #  istimàelos
+SFX H are àtelos are  #  istimàtelos
+SFX H are àdebbi are  #  pessàdebbi (avb.)
+SFX H are adebbei are  #  pessadebbei (avb.)
+SFX H are abbei are  #  pessabbei (avb.)
+SFX H are adu are  #  istimadu
+SFX H are atu are  #  istimatu
+SFX H are au are  #  istimau
+SFX H are ados are  #  istimados
+SFX H are atos are  #  istimatos
+SFX H are aos are  #  istimaos
+SFX H are ada are  #  istimada
+SFX H are ata are  #  istimata
+SFX H are adas are  #  istimadas
+SFX H are atas are  #  istimatas
+SFX H are andhe are
+SFX H are anne are
+SFX H are ando are
+SFX H are endhe are
+SFX H are enne are
+SFX H are hendhe [cg]are  #  lighendhe
+SFX H are henne [cg]are  #  lighenne
+SFX H are àndhemi are
+SFX H are ànnemi are
+SFX H are hèndhemi [cg]are
+SFX H are hènnemi [cg]are
+SFX H are àndhedi are
+SFX H are àndheti are
+SFX H are ànnedi are
+SFX H are ànneti are
+SFX H are hèndhedi [cg]are
+SFX H are hèndheti [cg]are
+SFX H are hènnedi [cg]are
+SFX H are hènneti [cg]are
+SFX H are ànnedhu are
+SFX H are ànnedhos are
+SFX H are àndhelu are
+SFX H are àndhelos are
+SFX H are ànnelu are
+SFX H are ànnelos are
+SFX H are hèndhelu [cg]are
+SFX H are hèndhelos [cg]are
+SFX H are hènnelu [cg]are
+SFX H are hènnelos [cg]are
+SFX H are àndhela are
+SFX H are àndhelas are
+SFX H are ànnedha are
+SFX H are ànnedhas are
+SFX H are ànnela are
+SFX H are ànnelas are
+SFX H are hèndhela [cg]are
+SFX H are hèndhelas [cg]are
+SFX H are hènnela [cg]are
+SFX H are hènnelas [cg]are
+SFX H are àndhennos are
+SFX H are àndhebbos are
+SFX H are ànnennos are
+SFX H are ànnebbos are
+SFX H are hèndhennos [cg]are
+SFX H are hèndhebbos [cg]are
+SFX H are hènnennos [cg]are
+SFX H are hènnebbos [cg]are
+SFX H are àndhesi are
+SFX H are ànnesi are
+SFX H are hèndhesi [cg]are
+SFX H are hènnesi [cg]are
+
+# J (Capuzzi)
+# I Coniugatzione var. campidanesas in -ai
+# 4 casus: Istim+ai - assel i+ai - abba sci+ai (arrema ci+ai- an gi+ai) - pag+ai (pec+ai)
+
+SFX J Y 69
+SFX J ai u [^i]ai  #  istimu
+SFX J ai as [^i]ai  #  istimas
+SFX J ai at [^i]ai  #  istimat
+SFX J ai ant [^i]ai  #  istimant
+SFX J u as iu # abbàscias - assélias
+SFX J u at iu # abbàsciat
+SFX J u ant iu # abbàsciant
+SFX J ai aus ai  #  istim aus - abbasci aus - asseli aus
+SFX J ai ais ai  
+SFX J ai amu ai
+SFX J ai asta ai
+SFX J ai àst ai
+SFX J ai ada ai
+SFX J ai àt ai
+SFX J ai amus ai
+SFX J ai astis ai
+SFX J ai astus ai
+SFX J ai anta ai
+SFX J ai ànt ai
+SFX J ai eus [^cgi]ai  #  chi istimeus
+SFX J ai eis [^cgi]ai  #  chi istimeis
+SFX J iai eus [cg]iai  #  chi abasceus ; disigeus ; pramaceus
+SFX J iai eis [cg]iai  #  chi abasceis
+SFX J ai eus [^cg]iai  #  chi asselieus
+SFX J ai eis [^cg]iai  #  chi asselieis
+SFX J ai hi [cg]ai  #  chi pechi, paghi
+SFX J ai his [cg]ai  #  chi pechis, paghis
+SFX J ai hist [cg]ai  #  chi pechist, paghist
+SFX J ai hit [cg]ai  #  chi pechit, paghit
+SFX J ai heus [cg]ai  #  chi pecheus, pagheus
+SFX J ai heis [cg]ai  #  chi pecheis, pagheis
+SFX J ai hint [cg]ai  #  chi pechint, paghint
+SFX J ai essi [^cgi]ai  #  chi istimessi
+SFX J ai essis [^cgi]ai  #  chi istimessis
+SFX J ai essit [^cgi]ai  #  chi istimessit
+SFX J ai éssimus [^cgi]ai  #  chi istiméssimus
+SFX J ai estis [^cgi]ai  #  chi istimestis
+SFX J ai essint [^cgi]ai  #  chi istimessint
+SFX J iai essi iai  #  chi abascessi
+SFX J iai essis [cg]iai  #  chi abascessis
+SFX J iai essit [cg]iai  #  chi abascessit
+SFX J iai éssimus [cg]iai  #  chi abascéssimus
+SFX J iai estis [cg]iai  #  chi abascestis
+SFX J iai essint [cg]iai  #  chi abascessint
+SFX J ai essi [^cg]iai  #  chi abascessi
+SFX J ai essis [^cg]iai  #  chi abascessis
+SFX J ai essit [^cg]iai  #  chi abascessit
+SFX J ai éssimus [^cg]iai  #  chi abascéssimus
+SFX J ai estis [^cg]iai  #  chi abascéstis
+SFX J ai essint [^cg]iai  #  chi abascessint
+SFX J ai hessi [cg]ai  #  chi pechessi, paghessi
+SFX J ai hessis [cg]ai  #  chi pechessis, paghessis
+SFX J ai hessit [cg]ai  #  chi pechessit, paghessit
+SFX J ai héssimus [cg]ai  #  chi pechéssimus, paghéssimus
+SFX J ai hestis [cg]ai  #  chi pechestis, paghestis
+SFX J ai hessint [cg]ai  #  chi pechessint, paghessint
+SFX J ai issí [cg]ai  #  istimissí, pighissí
+SFX J ai au ai  #  istimau
+SFX J ai ada ai  #  istimada
+SFX J ai aus ai  #  istimaus
+SFX J ai adas ai  #  istimadas
+SFX J ai endi/def [^cgi]ai
+SFX J ai endu/def [^cgi]ai
+SFX J ai hendi/def [cg]ai
+SFX J ai hendu/def [cg]ai
+SFX J iai endi/def [cg]iai
+SFX J iai endu/def [cg]iai
+SFX J ai endi/def [^cg]iai
+SFX J ai endu/def [^cg]iai
+
+SFX k Y 3
+SFX k ai a/def [^i]ai  #  istima
+SFX k u a u  #  abàscia 
+SFX k ai ai/def ai  #  istimaimí
+
+SFX u Y 14
+SFX u ai i [^cgi]ai  #  chi istimi
+SFX u ai is [^cgi]ai  #  chi istimis
+SFX u ai ist [^cgi]ai  #  chi istimist
+SFX u ai it [^cgi]ai  #  chi istimit
+SFX u ai int [^cgi]ai  #  chi istimint
+SFX u iai i iai  #   chi asseli
+SFX u iai is iai  #  
+SFX u iai ist iai  #  
+SFX u iai it iai  #  
+SFX u iai int iai  #  
+SFX u i is [rs]i # chi lessis - neris
+SFX u i ist [rs]i #
+SFX u i it [rs]i #
+SFX u i int [rs]i # 
+
+# K
+# Prima coniugazione in -are (solu var. nug./brabaxinas)
+SFX K Y 137
+SFX K are o are  #  istimo
+SFX K are as are  #  istimas
+SFX K are at are  #  istimat
+SFX K are amus are  #  istimamus
+SFX K are aes are  #  istimaes
+SFX K are ates are  #  istimates
+SFX K are ant are  #  istimant
+SFX K are abo are
+SFX K are aio are
+SFX K are ao are
+SFX K are avo are
+SFX K are abas are
+SFX K are aias are
+SFX K are ais are
+SFX K are avas are
+SFX K are abat are
+SFX K are aiat are
+SFX K are ait are
+SFX K are avat are
+SFX K are abamus are
+SFX K are aiamus are
+SFX K are àimus are
+SFX K are avamus are
+SFX K are abazes are
+SFX K are aiatzes are
+SFX K are àizis are
+SFX K are avazes are
+SFX K are abant are
+SFX K are aiant are
+SFX K are aint are
+SFX K are avant are
+SFX K are e are  #  chi istime
+SFX K are es are  #  chi istimes
+SFX K are et are  #  chi isse istimet
+SFX K are emas are  #  chi istimemas 
+SFX K are emus are  #  chi istimemus
+SFX K are edas are  #  chi istimedas
+SFX K are etas are  #  chi istimetas
+SFX K are ezas are  #  chi istimezas 
+SFX K are ent are  #  chi istiment 
+SFX K are he [cg]are  #  chi pache, lighe
+SFX K are hes [cg]are  #  chi paches, lighes
+SFX K are het [cg]are  #  chi pachet, lighet
+SFX K are hemas [cg]are  #  chi pachemas, lighemas
+SFX K are hemus [cg]are  #  chi pachemus, lighemus 
+SFX K are hedas [cg]are  #  chi pachedas, lighedas
+SFX K are hetas [cg]are  #  chi pachetas
+SFX K are hezas [cg]are  #  chi pachezas, lighezas
+SFX K are hent [cg]are  #  chi pachent, lighent
+SFX K are àrepo are  #  chi istimàrepo 
+SFX K are ares are  #  chi istimares
+SFX K are aret are  #  chi istimaret
+SFX K are àremus are  #  chi istimàremus
+SFX K are aremus are  #  chi istimeremus 
+SFX K are àrezis are  #  chi istimàrezis 
+SFX K are arezis are  #  chi istimerezis
+SFX K are arezes are  #  chi istimarent  
+SFX K are arent are  #  chi istimerent 
+SFX K are a are  #  istima
+SFX K are ae are  #  istimae
+SFX K are ate are  #  istimate
+SFX K are àdemi are  #  istimàdemi
+SFX K are àemi are  #  istimàemi
+SFX K are àtemi are  #  istimàtemi
+SFX K are àdebbos are  #  istimàdebbos
+SFX K are àebbos are  #  istimàebbos
+SFX K are àtebbos are  #  istimàtebbos
+SFX K are àdennos are  #  istimàdennos
+SFX K are àennos are  #  istimàennos
+SFX K are àtennos are  #  istimàtennos
+SFX K are àdela are  #  istimàdela
+SFX K are àela are  #  istimàela
+SFX K are àtela are  #  istimàtela
+SFX K are àdelas are  #  istimàdelas
+SFX K are àelas are  #  istimàelas
+SFX K are àtelas are  #  istimàtelas
+SFX K are àdelu are  #  istimàdelu
+SFX K are àelu are  #  istimàelu
+SFX K are àtelu are  #  istimàtelu
+SFX K are àdelos are  #  istimàdelos
+SFX K are àelos are  #  istimàelos
+SFX K are àtelos are  #  istimàtelos
+SFX K are adu are  #  istimadu
+SFX K are atu are  #  istimatu
+SFX K are au are  #  istimau
+SFX K are ados are  #  istimados
+SFX K are atos are  #  istimatos
+SFX K are aos are  #  istimaos
+SFX K are ada are  #  istimada
+SFX K are ata are  #  istimata
+SFX K are adas are  #  istimadas
+SFX K are atas are  #  istimatas
+SFX K are andhe are
+SFX K are endhe are
+SFX K are enne are
+SFX K are hendhe [cg]are  #  lighendhe
+SFX K are henne [cg]are  #  lighenne
+SFX K are àndhemi are
+SFX K are ànnemi are
+SFX K are hèndhemi [cg]are
+SFX K are hènnemi [cg]are
+SFX K are àndhedi are
+SFX K are àndheti are
+SFX K are ànnedi are
+SFX K are ànneti are
+SFX K are hèndhedi [cg]are
+SFX K are hèndheti [cg]are
+SFX K are hènnedi [cg]are
+SFX K are hènneti [cg]are
+SFX K are àndhelu are
+SFX K are àndhelos are
+SFX K are ànnelu are
+SFX K are ànnelos are
+SFX K are hèndhelu [cg]are
+SFX K are hèndhelos [cg]are
+SFX K are hènnelu [cg]are
+SFX K are hènnelos [cg]are
+SFX K are àndhela are
+SFX K are àndhelas are
+SFX K are ànnela are
+SFX K are ànnelas are
+SFX K are hèndhela [cg]are
+SFX K are hèndhelas [cg]are
+SFX K are hènnela [cg]are
+SFX K are hènnelas [cg]are
+SFX K are àndhennos are
+SFX K are àndhebbos are
+SFX K are ànnennos are
+SFX K are ànnebbos are
+SFX K are hèndhennos [cg]are
+SFX K are hèndhebbos [cg]are
+SFX K are hènnennos [cg]are
+SFX K are hènnebbos [cg]are
+SFX K are àndhesi are
+SFX K are ànnesi are
+SFX K are hèndhesi [cg]are
+SFX K are hènnesi [cg]are
+
+# L
+# solu variantes logudoresas in -are
+SFX L Y 145
+SFX L are o are  #  istimo
+SFX L are as are  #  istimas
+SFX L are at are  #  istimat
+SFX L are amos are  #  istimamos       
+SFX L are amus are  #  istimamus
+SFX L are ades are  #  istimades
+SFX L are aes are  #  istimaes
+SFX L are ant are  #  istimant
+SFX L are ai are
+SFX L are aia are
+SFX L are aio are
+SFX L are aias are
+SFX L are ais are
+SFX L are aiat are
+SFX L are ait are
+SFX L are aiamus are
+SFX L are aimus are
+SFX L are aizis are
+SFX L are aiant are
+SFX L are aint are
+SFX L are ei are
+SFX L are esi are
+SFX L are eis are
+SFX L are esis are
+SFX L are eit are
+SFX L are esit are
+SFX L are emus are
+SFX L are estis are
+SFX L are eint are
+SFX L are esint are
+SFX L are hei [cg]are
+SFX L are hesi [cg]are
+SFX L are heis [cg]are
+SFX L are hesis [cg]are
+SFX L are heit [cg]are
+SFX L are hesit [cg]are
+SFX L are hemus [cg]are
+SFX L are hestis [cg]are
+SFX L are heint [cg]are
+SFX L are hesint [cg]are
+SFX L are e are  #  chi istime
+SFX L are es are  #  chi istimes
+SFX L are et are  #  chi isse istimet
+SFX L are emas are  #  chi istimemas 
+SFX L are emus are  #  chi istimemus
+SFX L are edas are  #  chi istimedas
+SFX L are ent are  #  chi istiment 
+SFX L are he [cg]are  #  chi paghe, lighe
+SFX L are hes [cg]are  #  chi paghes, lighes
+SFX L are het [cg]are  #  chi paghet, lighet
+SFX L are hemas [cg]are  #  chi paghemas, lighemas
+SFX L are hemus [cg]are  #  chi paghemus, lighemus 
+SFX L are hedas [cg]are  #  chi paghedas, lighedas
+SFX L are hent [cg]are  #  chi paghent, lighent
+SFX L are era are  #  chi istimera  
+SFX L are ere are  #  chi istimere
+SFX L are eras are  #  chi istimeras 
+SFX L are eres are  #  chi istimeres
+SFX L are erat are  #  chi isse istimerat
+SFX L are eret are  #  chi isse istimerat
+SFX L are eremus are  #  chi istimeremus 
+SFX L are erezis are  #  chi istimerezis
+SFX L are erant are  #  chi istimerent 
+SFX L are erent are  #  chi istimerent 
+SFX L are hera [cg]are  #  chi istimera, lighera  
+SFX L are here [cg]are  #  chi istimere, lighere
+SFX L are heras [cg]are  #  chi istimeras 
+SFX L are heres [cg]are  #  chi istimeres
+SFX L are herat [cg]are  #  chi isse istimeret
+SFX L are heret [cg]are  #  chi isse istimeret
+SFX L are heremus [cg]are  #  chi istimeremus 
+SFX L are herezis [cg]are  #  chi istimerezis
+SFX L are herant [cg]are  #  chi istimerent
+SFX L are herent [cg]are  #  chi istimerent
+SFX L are a are  #  istima
+SFX L are ade are  #  istimade
+SFX L are ae are  #  istimae
+SFX L are àdemi are  #  istimàdemi
+SFX L are àemi are  #  istimàemi
+SFX L are àdebbos are  #  istimàdebbos
+SFX L are àebbos are  #  istimàebbos
+SFX L are àdennos are  #  istimàdennos
+SFX L are àennos are  #  istimàennos
+SFX L are àdela are  #  istimàdela
+SFX L are àela are  #  istimàela
+SFX L are àdelas are  #  istimàdelas
+SFX L are àelas are  #  istimàelas
+SFX L are àdelu are  #  istimàdelu
+SFX L are àelu are  #  istimàelu
+SFX L are àdelos are  #  istimàdelos
+SFX L are àelos are  #  istimàelos
+SFX L are adu are  #  istimadu
+SFX L are au are  #  istimau
+SFX L are ados are  #  istimados
+SFX L are aos are  #  istimaos
+SFX L are ada are  #  istimada
+SFX L are adas are  #  istimadas
+SFX L are andhe are
+SFX L are anne are
+SFX L are ando are
+SFX L are anno are
+SFX L are endhe are
+SFX L are enne are
+SFX L are hendhe [cg]are  #  lighendhe
+SFX L are henne [cg]are  #  lighenne
+SFX L are àndhemi are
+SFX L are ànnemi are
+SFX L are hèndhemi [cg]are
+SFX L are hènnemi [cg]are
+SFX L are àndhedi are
+SFX L are ànnedi are
+SFX L are hèndhedi [cg]are
+SFX L are hènnedi [cg]are
+SFX L are àndhelu are
+SFX L are àndhelos are
+SFX L are ànnedhu are
+SFX L are ànnedhos are
+SFX L are ànnelu are
+SFX L are ànnelos are
+SFX L are hèndhelu [cg]are
+SFX L are hèndhelos [cg]are
+SFX L are hènnelu [cg]are
+SFX L are hènnelos [cg]are
+SFX L are àndhela are
+SFX L are àndhelas are
+SFX L are ànnedha are
+SFX L are ànnedhas are
+SFX L are ànnela are
+SFX L are ànnelas are
+SFX L are hèndhela [cg]are
+SFX L are hèndhelas [cg]are
+SFX L are hènnela [cg]are
+SFX L are hènnelas [cg]are
+SFX L are àndhennos are
+SFX L are àndhebbos are
+SFX L are ànnennos are
+SFX L are ànnebbos are
+SFX L are hèndhennos [cg]are
+SFX L are hèndhebbos [cg]are
+SFX L are hènnennos [cg]are
+SFX L are hènnebbos [cg]are
+SFX L are àndhesi are
+SFX L are ànnesi are
+SFX L are hèndhesi [cg]are
+SFX L are hènnesi [cg]are
+
+########## sos àteros inditos pro sos vrb. in -ARE/ -AI: 
+
+# M
+# I Coniugatzione in -are totu sas var. log./nuor.chentza sas formas 
+# chi rechedint a.g. (as. abbóghino, annuntas in sa lista voc.)
+SFX M Y 172
+SFX M are amos are  #  abboghinamos, abbochinamos       
+SFX M are amus are
+SFX M are aus are
+SFX M are ades are
+SFX M are aes are
+SFX M are ates are
+SFX M are abo are
+SFX M are aia are
+SFX M are aio are
+SFX M are ao are
+SFX M are avo are
+SFX M are abas are
+SFX M are aias are
+SFX M are ais are
+SFX M are avas are
+SFX M are abat are
+SFX M are aiat are
+SFX M are ait are
+SFX M are avat are
+SFX M are abamus are
+SFX M are aiamus are
+SFX M are aiaus are
+SFX M are aimus are
+SFX M are avamus are
+SFX M are abazes are
+SFX M are aizis are
+SFX M are avazes are
+SFX M are abant are
+SFX M are aiant are
+SFX M are aint are
+SFX M are avant are
+SFX M are ei are
+SFX M are esi are
+SFX M are eis are
+SFX M are esis are
+SFX M are eit are
+SFX M are esit are
+SFX M are emus are
+SFX M are estis are
+SFX M are eint are
+SFX M are esint are
+SFX M are hei [cg]are
+SFX M are hesi [cg]are
+SFX M are heis [cg]are
+SFX M are hesis [cg]are
+SFX M are heit [cg]are
+SFX M are hesit [cg]are
+SFX M are hemus [cg]are
+SFX M are hestis [cg]are
+SFX M are heint [cg]are
+SFX M are hesint [cg]are
+SFX M are emas are  #  chi abboghinemas 
+SFX M are emus are
+SFX M are edas are
+SFX M are etas are
+SFX M are ezas are
+SFX M are hemas [cg]are
+SFX M are hemus [cg]are  #  chi ischerbighemus  
+SFX M are hedas [cg]are
+SFX M are hetas [cg]are
+SFX M are hezas [cg]are
+SFX M are era are  #  chi abboghinera  
+SFX M are ere are
+SFX M are àrepo are
+SFX M are ares are
+SFX M are eras are
+SFX M are eres are
+SFX M are aret are
+SFX M are eret are
+SFX M are àremus are
+SFX M are eremus are
+SFX M are àrezis are
+SFX M are erezis are
+SFX M are arent are
+SFX M are erent are
+SFX M are hera [cg]are  #  chi ischerbighera  
+SFX M are here [cg]are
+SFX M are heras [cg]are
+SFX M are heres [cg]are
+SFX M are heret [cg]are
+SFX M are heremus [cg]are
+SFX M are herezis [cg]are
+SFX M are herent [cg]are
+SFX M are ade are  #  abboghinade
+SFX M are ae are
+SFX M are ate are
+SFX M are àdemi are  #  abboghinàdemi
+SFX M are àemi are
+SFX M are àtemi are
+SFX M are àdebbos are
+SFX M are àebbos are
+SFX M are àtebbos are
+SFX M are àdennos are
+SFX M are àennos are
+SFX M are àtennos are
+SFX M are àdedha are
+SFX M are àdela are
+SFX M are àela are
+SFX M are àtela are
+SFX M are àdedhas are
+SFX M are àdelas are
+SFX M are àelas are
+SFX M are àtelas are
+SFX M are àdedhu are
+SFX M are àdedhos are
+SFX M are àdelu are
+SFX M are àelu are
+SFX M are àtelu are
+SFX M are àdelos are
+SFX M are àelos are
+SFX M are àtelos are
+SFX M are adu are  #  abboghinadu
+SFX M are atu are
+SFX M are au are
+SFX M are ados are
+SFX M are atos are
+SFX M are aos are
+SFX M are ada are
+SFX M are ata are
+SFX M are adas are
+SFX M are atas are
+SFX M are andhe are
+SFX M are anne are
+SFX M are ando are
+SFX M are endhe are
+SFX M are enne are
+SFX M are hendhe [cg]are  #  lighendhe
+SFX M are henne [cg]are  #  lighenne
+SFX M are àndhemi are
+SFX M are ànnemi are
+SFX M are hèndhemi [cg]are
+SFX M are hènnemi [cg]are
+SFX M are àndhedi are
+SFX M are àndheti are
+SFX M are ànnedi are
+SFX M are ànneti are
+SFX M are hèndhedi [cg]are
+SFX M are hèndheti [cg]are
+SFX M are hènnedi [cg]are
+SFX M are hènneti [cg]are
+SFX M are àndhelu are
+SFX M are àndhelos are
+SFX M are ànnedhu are
+SFX M are ànnedhos are
+SFX M are ànnelu are
+SFX M are ànnelos are
+SFX M are hèndhelu [cg]are
+SFX M are hèndhelos [cg]are
+SFX M are hènnelu [cg]are
+SFX M are hènnelos [cg]are
+SFX M are ànnedha are
+SFX M are ànnedhas are
+SFX M are àndhela are
+SFX M are àndhelas are
+SFX M are ànnela are
+SFX M are ànnelas are
+SFX M are hèndhela [cg]are
+SFX M are hèndhelas [cg]are
+SFX M are hènnela [cg]are
+SFX M are hènnelas [cg]are
+SFX M are àndhennos are
+SFX M are àndhebbos are
+SFX M are ànnennos are
+SFX M are ànnebbos are
+SFX M are hèndhennos [cg]are
+SFX M are hèndhebbos [cg]are
+SFX M are hènnennos [cg]are
+SFX M are hènnebbos [cg]are
+SFX M are àndhesi are
+SFX M are ànnesi are
+SFX M are hèndhesi [cg]are
+SFX M are hènnesi [cg]are
+
+
+# O
+# Prima coniugazione in -are (solu var. nug./brabaxinas)
+# chentza sas formas chi rechedint a.g.
+SFX O Y 124
+SFX O are amus are  #  abbochinamus
+SFX O are aes are
+SFX O are ates are
+SFX O are abo are
+SFX O are aio are
+SFX O are ao are
+SFX O are avo are
+SFX O are abas are
+SFX O are aias are
+SFX O are ais are
+SFX O are avas are
+SFX O are abat are
+SFX O are aiat are
+SFX O are ait are
+SFX O are avat are
+SFX O are abamus are
+SFX O are aiamus are
+SFX O are àimus are
+SFX O are avamus are
+SFX O are abazes are
+SFX O are aiatzes are
+SFX O are àizis are
+SFX O are avazes are
+SFX O are abant are
+SFX O are aiant are
+SFX O are aint are
+SFX O are avant are
+SFX O are emas are  #  chi abbochinemas 
+SFX O are emus are
+SFX O are edas are
+SFX O are etas are
+SFX O are ezas are
+SFX O are hemas [cg]are
+SFX O are hemus [cg]are
+SFX O are hedas [cg]are
+SFX O are hetas [cg]are
+SFX O are hezas [cg]are
+SFX O are àrepo are  #  chi abbochinàrepo 
+SFX O are ares are
+SFX O are aret are
+SFX O are àremus are
+SFX O are aremus are
+SFX O are àrezis are
+SFX O are arezis are
+SFX O are arezes are
+SFX O are arent are
+SFX O are ae are  #  abbochinae
+SFX O are ate are
+SFX O are àdemi are  #  abbochinàdemi
+SFX O are àemi are
+SFX O are àtemi are
+SFX O are àdebbos are
+SFX O are àebbos are
+SFX O are àtebbos are
+SFX O are àdennos are
+SFX O are àennos are
+SFX O are àtennos are
+SFX O are àdela are
+SFX O are àela are
+SFX O are àtela are
+SFX O are àdelas are
+SFX O are àelas are
+SFX O are àtelas are
+SFX O are àdelu are
+SFX O are àelu are
+SFX O are àtelu are
+SFX O are àdelos are
+SFX O are àelos are
+SFX O are àtelos are
+SFX O are adu are  #  abbochinadu
+SFX O are atu are
+SFX O are au are
+SFX O are ados are
+SFX O are atos are
+SFX O are aos are
+SFX O are ada are
+SFX O are ata are
+SFX O are adas are
+SFX O are atas are
+SFX O are andhe are
+SFX O are endhe are
+SFX O are enne are
+SFX O are hendhe [cg]are
+SFX O are henne [cg]are
+SFX O are àndhemi are
+SFX O are ànnemi are
+SFX O are hèndhemi [cg]are
+SFX O are hènnemi [cg]are
+SFX O are àndhedi are
+SFX O are àndheti are
+SFX O are ànnedi are
+SFX O are ànneti are
+SFX O are hèndhedi [cg]are
+SFX O are hèndheti [cg]are
+SFX O are hènnedi [cg]are
+SFX O are hènneti [cg]are
+SFX O are àndhelu are
+SFX O are àndhelos are
+SFX O are ànnelu are
+SFX O are ànnelos are
+SFX O are hèndhelu [cg]are
+SFX O are hèndhelos [cg]are
+SFX O are hènnelu [cg]are
+SFX O are hènnelos [cg]are
+SFX O are àndhela are
+SFX O are àndhelas are
+SFX O are ànnela are
+SFX O are ànnelas are
+SFX O are hèndhela [cg]are
+SFX O are hèndhelas [cg]are
+SFX O are hènnela [cg]are
+SFX O are hènnelas [cg]are
+SFX O are àndhennos are
+SFX O are àndhebbos are
+SFX O are ànnennos are
+SFX O are ànnebbos are
+SFX O are hèndhennos [cg]are
+SFX O are hèndhebbos [cg]are
+SFX O are hènnennos [cg]are
+SFX O are hènnebbos [cg]are
+SFX O are àndhesi are
+SFX O are ànnesi are
+SFX O are hèndhesi [cg]are
+SFX O are hènnesi [cg]are
+
+# P
+# solu variantes logudoresas in -are chentza sas formas 
+# chi rechedint a.g.
+SFX P Y 135
+SFX P are amos are  #  abboghinamos       
+SFX P are amus are
+SFX P are ades are
+SFX P are aes are
+SFX P are ai are
+SFX P are aia are
+SFX P are aio are
+SFX P are aias are
+SFX P are ais are
+SFX P are aiat are
+SFX P are ait are
+SFX P are aiamus are
+SFX P are aimus are
+SFX P are aizis are
+SFX P are aiant are
+SFX P are aint are
+SFX P are ei are
+SFX P are esi are
+SFX P are eis are
+SFX P are esis are
+SFX P are eit are
+SFX P are esit are
+SFX P are emus are
+SFX P are estis are
+SFX P are eint are
+SFX P are esint are
+SFX P are hei [cg]are
+SFX P are hesi [cg]are
+SFX P are heis [cg]are
+SFX P are hesis [cg]are
+SFX P are heit [cg]are
+SFX P are hesit [cg]are
+SFX P are hemus [cg]are
+SFX P are hestis [cg]are
+SFX P are heint [cg]are
+SFX P are hesint [cg]are
+SFX P are emas are  #  chi abboghinemas 
+SFX P are emus are
+SFX P are edas are
+SFX P are hemas [cg]are  #  chi manighemas
+SFX P are hemus [cg]are
+SFX P are hedas [cg]are
+SFX P are era are  #  chi abboghinera  
+SFX P are ere are
+SFX P are eras are
+SFX P are eres are
+SFX P are erat are
+SFX P are eret are
+SFX P are eremus are
+SFX P are erezis are
+SFX P are erant are
+SFX P are erent are
+SFX P are hera [cg]are  #  chi manighera 
+SFX P are here [cg]are
+SFX P are heras [cg]are
+SFX P are heres [cg]are
+SFX P are herat [cg]are
+SFX P are heret [cg]are
+SFX P are heremus [cg]are
+SFX P are herezis [cg]are
+SFX P are herant [cg]are
+SFX P are herent [cg]are
+SFX P are ade are  #  abboghinade
+SFX P are ae are
+SFX P are àdemi are  #  abboghinàdemi
+SFX P are àdemi are
+SFX P are àdebbos are
+SFX P are àebbos are
+SFX P are àdennos are
+SFX P are àennos are
+SFX P are àdedha are
+SFX P are àdedhas are
+SFX P are àdela are
+SFX P are àela are
+SFX P are àdelas are
+SFX P are àelas are
+SFX P are àdelu are
+SFX P are àelu are
+SFX P are àdedhu are
+SFX P are àdedhos are
+SFX P are àdelos are
+SFX P are àelos are
+SFX P are adu are  #  istimadu
+SFX P are au are  #  istimau
+SFX P are ados are  #  istimados
+SFX P are aos are  #  istimaos
+SFX P are ada are  #  istimada
+SFX P are adas are  #  istimadas
+SFX P are andhe are
+SFX P are anne are
+SFX P are ando are
+SFX P are endhe are
+SFX P are enne are
+SFX P are hendhe [cg]are  #  lighendhe
+SFX P are henne [cg]are  #  lighenne
+SFX P are àndhemi are
+SFX P are ànnemi are
+SFX P are hèndhemi [cg]are
+SFX P are hènnemi [cg]are
+SFX P are àndhedi are
+SFX P are ànnedi are
+SFX P are hèndhedi [cg]are
+SFX P are hènnedi [cg]are
+SFX P are àndhelu are
+SFX P are àndhelos are
+SFX P are ànnedhu are
+SFX P are ànnedhos are
+SFX P are ànnelu are
+SFX P are ànnelos are
+SFX P are hèndhelu [cg]are
+SFX P are hèndhelos [cg]are
+SFX P are hènnelu [cg]are
+SFX P are hènnelos [cg]are
+SFX P are àndhela are
+SFX P are àndhelas are
+SFX P are ànnedha are
+SFX P are ànnedhas are
+SFX P are ànnela are
+SFX P are ànnelas are
+SFX P are hèndhela [cg]are
+SFX P are hèndhelas [cg]are
+SFX P are hènnela [cg]are
+SFX P are hènnelas [cg]are
+SFX P are àndhennos are
+SFX P are àndhebbos are
+SFX P are ànnennos are
+SFX P are ànnebbos are
+SFX P are hèndhennos [cg]are
+SFX P are hèndhebbos [cg]are
+SFX P are hènnennos [cg]are
+SFX P are hènnebbos [cg]are
+SFX P are àndhesi are
+SFX P are ànnesi are
+SFX P are hèndhesi [cg]are
+SFX P are hènnesi [cg]are
+
+# Q
+# I Coniugatzione in -iare Log. (b'at formas chi rechedint a. gràficu e formas chi
+# no leant sa /i/ de servítziu chi bi est in verbos che abbasciare, arrangiare) 
+SFX Q Y 66
+SFX Q iare iamos iare  #  abbasciamos, arrangiamos 
+SFX Q iare iamus iare  #  abbasciamus
+SFX Q iare iaus iare  #  abbasciaus
+SFX Q iare iades iare  #  abbasciades
+SFX Q iare iaes iare  #  abbasciaes
+SFX Q iare iaia iare  #  abbasciaia, arrangiaia
+SFX Q iare iaio iare
+SFX Q iare iao iare
+SFX Q iare iavo iare
+SFX Q iare iaias iare
+SFX Q iare iavas iare
+SFX Q iare iaiat iare
+SFX Q iare iavat iare
+SFX Q iare iaiamus iare
+SFX Q iare iaiaus iare
+SFX Q iare iaimus iare
+SFX Q iare iavamus iare
+SFX Q iare iaizis iare
+SFX Q iare iavazes iare
+SFX Q iare iaiant iare
+SFX Q iare iavant iare
+SFX Q iare ei iare  #  abbascei, arrangei
+SFX Q iare esi iare
+SFX Q iare eis iare
+SFX Q iare esis iare
+SFX Q iare eit iare
+SFX Q iare esit iare
+SFX Q iare emus iare
+SFX Q iare estis iare
+SFX Q iare eint iare
+SFX Q iare esint iare
+SFX Q iare e iare  #  chi abbasce, arrange 
+SFX Q iare es iare  #  chi abbasces
+SFX Q iare et iare  #  chi abbascet
+SFX Q iare emas iare  #  chi abbascemas, arrangemas 
+SFX Q iare emus iare
+SFX Q iare edas iare
+SFX Q iare ent iare
+SFX Q iare era iare  #  chi abbascera, arrangera  
+SFX Q iare ere iare
+SFX Q iare eras iare
+SFX Q iare eres iare
+SFX Q iare erat iare
+SFX Q iare eret iare
+SFX Q iare eremus iare
+SFX Q iare erezis iare
+SFX Q iare erant iare
+SFX Q iare erent iare
+SFX Q iare iade iare  #  abbasciade, arrangiade
+SFX Q iare iae iare
+SFX Q iare iàdelu/v iare  #  abbasciàdemi, arrangiàdemi
+SFX Q iare iàelu/v iare
+SFX Q iare iadu iare  #  abbasciadu
+SFX Q iare iau iare
+SFX Q iare iados iare
+SFX Q iare iaos iare
+SFX Q iare iada iare
+SFX Q iare iadas iare
+SFX Q iare iandhe iare  #  abbasciandhe
+SFX Q iare iando iare  #  abbasciando
+SFX Q iare endhe iare  #  abbascendhe
+SFX Q iare enne iare  #  abbascenne
+SFX Q iare iàndhelu/v iare  #  abbasciàndhemi
+SFX Q iare iànnelu/v iare
+SFX Q iare iàndhesi iare
+SFX Q iare iànnesi iare
+
+# S
+# I Coniugatzione in -iare Log. (b’at formas chi rechedint a. gràficu 
+# e formas chi no leant sa /i/ de servítziu chi però abbarrat in tzertas 
+# formas de su cong. trabàgl-i-e) 
+SFX S Y 63
+SFX S iare iamos iare  #  trabagliamos
+SFX S iare iamus iare
+SFX S iare iaus iare
+SFX S iare iades iare
+SFX S iare iaes iare
+SFX S iare iaia iare  #  trabagliaia
+SFX S iare iaio iare
+SFX S iare iao iare
+SFX S iare iavo iare
+SFX S iare iaias iare
+SFX S iare iavas iare
+SFX S iare iaiat iare
+SFX S iare iavat iare
+SFX S iare iaiamus iare
+SFX S iare iaiaus iare
+SFX S iare iaimus iare
+SFX S iare iavamus iare
+SFX S iare iaizis iare
+SFX S iare iavazes iare
+SFX S iare iaiant iare
+SFX S iare iavant iare
+SFX S iare iei iare  #  trabagliei
+SFX S iare iesi iare
+SFX S iare ieis iare
+SFX S iare iesis iare
+SFX S iare ieit iare
+SFX S iare iesit iare
+SFX S iare iemus iare
+SFX S iare iestis iare
+SFX S iare ieint iare
+SFX S iare iesint iare
+SFX S iare iemas iare  #  chi trabagliemas
+SFX S iare iemus iare
+SFX S iare iedas iare
+SFX S iare ietas iare
+SFX S iare iera iare  #  chi trabagliera 
+SFX S iare iere iare
+SFX S iare ieras iare
+SFX S iare ieres iare
+SFX S iare ierat iare
+SFX S iare ieret iare
+SFX S iare ieremus iare
+SFX S iare ierezis iare
+SFX S iare ierant iare
+SFX S iare ierent iare
+SFX S iare iade iare  #  trabagliade
+SFX S iare iae iare
+SFX S iare iàdelu/v iare  #  abbasciàdemi, arrangiàdemi
+SFX S iare iàelu/v iare
+SFX S iare iadu iare  #  trabagliadu
+SFX S iare iau iare
+SFX S iare iados iare
+SFX S iare iaos iare
+SFX S iare iada iare
+SFX S iare iadas iare
+SFX S iare iandhe iare  #  trabagliandhe
+SFX S iare iando iare
+SFX S iare iendhe iare
+SFX S iare ienne iare
+SFX S iare iàndhelu/v iare  #  abbasciàndhemi
+SFX S iare iànnelu/v iare
+SFX S iare iàndhesi iare
+SFX S iare iànnesi iare
+
+
+#########################################################################
+# De sos pagos verbos de sa II coniug. - unos 500 - sunt in su voc. cun sas 
+# formas de totu sa coniugatzione solu unos 160 de sos printzipales o prus 
+# manizados, unos 98 log./nuor. e unos 65 camp. 
+#########################################################################
+
+# U
+# III Coniugatzione var. log/nuor. in -ire, foras cun raighina 
+# in /ch/ e /gh/
+# indicativu  presente
+SFX U Y 75
+SFX U ire o ire  #  fino
+SFX U ire is ire  #  finis
+SFX U ire it ire  #  finit
+SFX U ire imos ire  #  finimos   
+SFX U ire imus ire  #  finimus   
+SFX U ire ius ire  #  finius   
+SFX U ire ides ire  #  finides
+SFX U ire ies ire  #  finies
+SFX U ire ites ire  #  finites
+SFX U ire int ire  #  finint
+SFX U ire ia ire  #  finia
+SFX U ire io ire  #  finio
+SFX U ire ias ire  #  finias
+SFX U ire iat ire  #  finiat 
+SFX U ire iabamus ire  #  finiabamus  
+SFX U ire iaimus ire  #  finiaimus   
+SFX U ire iamos ire  #  finiamos
+SFX U ire iabazes ire  #  finiabazes
+SFX U ire iaizis ire  #  finiaizis
+SFX U ire iazis ire  #  finiazis
+SFX U ire iant ire  #  finiant
+SFX U ire ei ire
+SFX U ire esi ire
+SFX U ire eis ire
+SFX U ire esis ire
+SFX U ire eit ire
+SFX U ire esit ire
+SFX U ire emus ire
+SFX U ire estis ire
+SFX U ire eint ire
+SFX U ire esint ire
+SFX U ire a ire  #  chi finas
+SFX U ire as ire  #  chi finas
+SFX U ire at ire  #  chi finat
+SFX U ire amus ire  #  chi finamus 
+SFX U ire emas ire  #  chi finemas
+SFX U ire emus ire  #  chi finemus
+SFX U ire azes ire  #  chi finazes 
+SFX U ire edas ire  #  chi finedas
+SFX U ire etas ire  #  chi finetas
+SFX U ire ant ire  #  chi finant 
+SFX U ire era ire  #  chi finera  
+SFX U ire eras ire  #  chi fineras
+SFX U ire erat ire  #  chi finerat 
+SFX U ire írepo ire  #  chi finírepo
+SFX U ire ires ire  #  chi finires
+SFX U ire iret ire  #  chi finiret
+SFX U ire iremus ire  #  chi finiremus 
+SFX U ire irezis ire  #  chi finirezis
+SFX U ire erant ire  #  chi finerant 
+SFX U ire irent ire  #  chi finirent 
+SFX U ire i ire  #  fini
+SFX U ire ide ire  #  finide
+SFX U ire ie ire  #  finie
+SFX U ire ite ire  #  finite
+SFX U ire idu ire  #  finidu
+SFX U ire iu ire  #  finiu
+SFX U ire itu ire  #  finitu
+SFX U ire idos ire  #  finidos
+SFX U ire ios ire  #  finios
+SFX U ire itos ire  #  finitos
+SFX U ire ida ire  #  finida
+SFX U ire ia ire  #  finia
+SFX U ire ita ire  #  finita
+SFX U ire idas ire  #  finidas
+SFX U ire ias ire  #  finias
+SFX U ire itas ire  #  finitas
+SFX U ire indhe ire
+SFX U ire inne ire
+SFX U ire indo ire
+SFX U ire índhelu/v ire
+SFX U ire ínnelu/v ire
+SFX U ire ídelu/v ire  #  finídemi
+SFX U ire íelu/v ire  #  finíemi
+SFX U ire ítelu/v ire  #  finítemi
+
+# V
+# III Coniugatzione var. camp. in -iri (/i/ tónica)
+# mancant irriri , scriri , sciri, biri , ischiri etc.
+# 
+SFX V Y 27
+SFX V iri u [^h]iri  #  finu
+SFX V iri u dhiri  #  budhu
+SFX V hiri u [cg]hiri  #  sigu
+SFX V iri is iri  #  finis
+SFX V iri it iri  #  finit
+SFX V iri eus iri  #  fineus
+SFX V iri eis iri  #  fineis
+SFX V iri int iri  #  finint
+SFX V iri emu iri  #  finemu
+SFX V iri ias iri  #  finias
+SFX V iri iast iri  #  finiast
+SFX V iri iat iri  #  finiat
+SFX V iri emus iri  #  finemus
+SFX V iri estus iri  #  finestus
+SFX V iri estis iri  #  finestis
+SFX V iri iant iri  #  finiant
+SFX V iri essi iri  #  finessi
+SFX V iri essis iri  #  finessis
+SFX V iri essit iri  #  finessit
+SFX V iri éssimus iri  #  finéssimus
+SFX V iri estis iri  #  finestis
+SFX V iri essint iri  #  finessint
+SFX V iri i/def iri  #  fini
+SFX V iri ei/def iri  #  finei
+SFX V iri iu/D iri  #  finiu
+SFX V iri endi/def iri
+SFX V iri endu/def iri
+
+# cungiuntivu regulari
+
+SFX l Y 4
+SFX l u a u # illàngia
+SFX l u as u # illàngias
+SFX l u at u # illàngiat
+SFX l u ant u # illàngiant
+
+SFX p Y 4
+SFX p u ais u # bengais
+SFX p u aus u # 
+SFX p u iais [cg]u # bengiais
+SFX p u iaus [cg]u # 
+
+# W
+# III Coniugatzione var. camp. in -erri -arri (sentz'e particìpiu) (allobau cun w)
+# 
+# oberri cumparri - biri
+
+SFX W Y 25
+SFX W ri u ri  #  oberu
+SFX W ri is rri  #  
+SFX W iri is iri  #  
+SFX W ri it rri  #  
+SFX W iri it iri  #
+SFX W ri eus ri  #  
+SFX W ri eis ri  #  
+SFX W ri int rri  #  
+SFX W iri int iri  #  
+SFX W ri emu ri  #  
+SFX W ri iast ri  #  
+SFX W ri iat ri  #  
+SFX W ri emus ri  #  
+SFX W ri estus ri  #  
+SFX W ri estis ri  #  
+SFX W ri iant ri  #   
+SFX W ri essi ri  #  
+SFX W ri essis ri  #  
+SFX W ri essit ri  #  
+SFX W ri éssimus ri  #  
+SFX W ri estis ri  #  
+SFX W ri essint ri  #
+SFX W ri ei/def ri  #  
+SFX W ri endi/def ri
+SFX W ri endu/def ri
+
+# oberri (2)
+SFX z Y 10
+SFX z ri giaus ri 
+SFX z ri giais ri  
+SFX z ri gessi ri  #  
+SFX z ri gessis ri  #  
+SFX z ri gessit ri  #  
+SFX z ri géssimus ri  #  
+SFX z ri gestis ri  #  
+SFX z ri gessint ri  #  
+SFX z ri gei/def ri  #  
+SFX z ri i/def ri  #  
+
+#biri sciri ??
+
+SFX Z Y 5
+SFX Z a 'e [^eiou]a
+SFX Z e 'e [^aiou]e
+SFX Z i 'e [^aeou]i
+SFX Z o 'e [^aeiu]o
+SFX Z u 'e [^aeio]u
+
+# a
+# Sa elisione de sa vocale finale in artículos (su, sa) e dim. (cussu/a, custu/a, cudhu/a),  unu, una
+PFX a Y 6
+PFX a 0 s' [aàeèéiíoòóuúAEIOU]
+PFX a 0 un' [aàeèéiíoòóuúAEIOU]
+PFX a 0 d-un' [aàeèéiíoòóuúAEIOU]
+PFX a 0 cuss' [aàeèéiíoòóuúAEIOU]
+PFX a 0 cust' [aàeèéiíoòóuúAEIOU]
+PFX a 0 cudh' [aàeèéiíoòóuúAEIOU]
+
+# b
+# Sa elisione de sa vocale finale in  pron. pers. (mi, ti, si, dhu, dha, lu, la) ,bi, ndhi, nci, nche
+PFX b Y 9
+PFX b 0 m' [aàeèéiíoòóuú]
+PFX b 0 s' [aàeèéiíoòóuú]
+PFX b 0 t' [aàeèéiíoòóuú]
+PFX b 0 b' [aàeèéiíoòóuú]
+PFX b 0 l' [aàeèéiíoòóuú]
+PFX b 0 dh' [aàeèéiíoòóuú]
+PFX b 0 nc' [aàeèéiíoòóuú]
+PFX b 0 ndh' [aàeèéiíoòóuú]
+PFX b 0 nd' [aàeèéiíoòóuú]
+
+PFX c Y 2
+PFX c 0 sant' [AEIOU]
+PFX c 0 Sant' [AEIOU]
+
+SFX d Y 21
+SFX d 0 mí .
+SFX d 0 dí .
+SFX d 0 sí .
+SFX d 0 midhu .
+SFX d 0 midhus .
+SFX d 0 midha .
+SFX d 0 midhas .
+SFX d 0 minci .
+SFX d 0 mindi .
+SFX d 0 didhu .
+SFX d 0 didhus .
+SFX d 0 didha .
+SFX d 0 dinci .
+SFX d 0 dindi .
+SFX d 0 didhas .
+SFX d 0 sidhu .
+SFX d 0 sidhus .
+SFX d 0 sidha .
+SFX d 0 sidhas .
+SFX d 0 sinci .
+SFX d 0 sindi .
+
+SFX e Y 6
+SFX e 0 dhu .
+SFX e 0 dha .
+SFX e 0 dhus .
+SFX e 0 dhas .
+SFX e 0 dhi .
+SFX e 0 dhis .
+
+SFX f Y 21
+SFX f 0 dhoi [^s]
+SFX f 0 nci [^s]
+SFX f 0 ndi [^s]
+SFX f 0 ncedhu [^s]
+SFX f 0 ncedhus [^s]
+SFX f 0 ncedha [^s]
+SFX f 0 ncedhas [^s]
+SFX f 0 ndedhu [^s]
+SFX f 0 ndedhus [^s]
+SFX f 0 ndedha [^s]
+SFX f 0 ndedhas [^s]
+SFX f 0 inci s
+SFX f 0 indi s
+SFX f 0 incedhu s
+SFX f 0 incedhus s
+SFX f 0 incedha s
+SFX f 0 incedhas s
+SFX f 0 indedhu s
+SFX f 0 indedhus s
+SFX f 0 indedha s
+SFX f 0 indedhas s
+
+PFX g Y 6
+PFX g 0 contra [^ablmo]
+PFX g 0 contrab b
+PFX g a contra a
+PFX g 0 contral l
+PFX g 0 contram m
+PFX g 0 contr o
+
+SFX h Y 9
+SFX h alu adi alu
+SFX h alu ati alu
+SFX h alu annos alu
+SFX h alu ala alu
+SFX h alu alas alu
+SFX h alu ami alu
+SFX h alu alos alu
+SFX h alu ali alu
+SFX h alu alis alu
+
+
+
+# tratenni (2) - benni 
+SFX i Y 66
+SFX i ni gu enni
+SFX i ni is enni
+SFX i ni it enni
+SFX i ni eus enni
+SFX i ni eis enni
+SFX i ni int enni
+SFX i ni ga enni
+SFX i ni gas enni
+SFX i ni gast enni
+SFX i ni gat enni
+SFX i ni gaus enni
+SFX i ni gais enni
+SFX i ni gant enni
+SFX i ni emu enni
+SFX i ni ias enni
+SFX i ni iat enni
+SFX i ni iant enni
+SFX i ni emus enni
+SFX i ni estis enni
+SFX i ni estus enni
+SFX i ni i/def enni
+SFX i ni ei/def enni
+SFX i ni essi enni  
+SFX i ni essis enni  
+SFX i ni essit enni  
+SFX i ni éssimus enni
+SFX i ni estis enni  
+SFX i ni essint enni  
+SFX i ni ghessi enni  
+SFX i ni ghessis enni  
+SFX i ni ghessit enni  
+SFX i ni ghéssimus enni
+SFX i ni ghestis enni  
+SFX i ni ghessint enni  
+SFX i ni endi/def enni
+SFX i ni endu/def enni
+SFX i i gu eni
+SFX i i is eni
+SFX i i it eni
+SFX i i eus eni
+SFX i i eis eni
+SFX i i int eni
+SFX i i ga eni
+SFX i i gas eni
+SFX i i gast eni
+SFX i i gat eni
+SFX i i gaus eni
+SFX i i gais eni
+SFX i i gant eni
+SFX i i emu eni
+SFX i i ias eni
+SFX i i iat eni
+SFX i i iant eni
+SFX i i emus eni
+SFX i i estis eni
+SFX i i estus eni
+SFX i i i/def eni
+SFX i i ei/def eni
+SFX i i essi eni  
+SFX i i essis eni  
+SFX i i essit eni  
+SFX i i éssimus eni
+SFX i i estis eni  
+SFX i i essint eni  
+SFX i i endi/def eni
+SFX i i endu/def eni
+
+SFX m Y 13
+SFX m a o a
+SFX m a as a
+SFX m a at a
+SFX m a ant a
+SFX m a e a
+SFX m a es a
+SFX m a et a
+SFX m a ent a
+SFX m a he [cg]a
+SFX m a hes [cg]a
+SFX m a het [cg]a
+SFX m a hent [cg]a
+SFX m a alu/v a
+
+# donai 
+
+SFX n Y 18
+SFX n ai gu .
+SFX n ai ga .
+SFX n ai gas .
+SFX n ai gat .
+SFX n ai gant .
+SFX n ai ghi .  
+SFX n ai ghis .  
+SFX n ai ghist .  
+SFX n ai ghit . 
+SFX n ai gheus .
+SFX n ai gheis .   
+SFX n ai ghint .  
+SFX n ai ghessi .    
+SFX n ai ghessis .    
+SFX n ai ghessit .    
+SFX n ai ghéssimus .  
+SFX n ai ghestis .    
+SFX n ai ghessint . 
+
+SFX q Y 5
+SFX q a as a
+SFX q a at a
+SFX q a ant a
+SFX q a o a
+SFX q a alu/v a
+
+# fai - podi  (de fa tzu- po tzu)
+
+SFX r Y 34
+SFX r i is i
+SFX r i it i
+SFX r tzu deus tzu
+SFX r tzu deis tzu
+SFX r tzu demu tzu
+SFX r tzu dia tzu
+SFX r tzu diast tzu
+SFX r tzu dias tzu
+SFX r tzu diat tzu
+SFX r tzu demus tzu
+SFX r tzu destis tzu
+SFX r tzu destus tzu
+SFX r tzu diant tzu
+SFX r u a tzu
+SFX r u as tzu
+SFX r u at tzu
+SFX r u aus tzu
+SFX r u ais tzu
+SFX r u ant tzu
+SFX r i i/def i
+SFX r ai ei/def fai
+SFX r tzu dei/def tzu
+SFX r tzu dessi tzu
+SFX r tzu dessis tzu 
+SFX r tzu dessit tzu  
+SFX r tzu déssimus tzu
+SFX r tzu destis tzu  
+SFX r tzu dessint tzu
+SFX r tzu dendi/def tzu
+SFX r tzu dendu/def tzu
+SFX r i endi/def fai
+SFX r i endu/def fai
+SFX r ai endi/def fai
+SFX r ai endu/def fai
+
+SFX v Y 9
+SFX v lu mi lu
+SFX v lu ti lu
+SFX v lu di lu
+SFX v lu la lu
+SFX v lu las lu
+SFX v lu los lu
+SFX v lu nnos lu
+SFX v lu li lu
+SFX v lu lis lu
+
+# prandi (su part. est in X) - oprimi (cun part.)
+
+SFX x Y 49
+SFX x i u [^cgh] i # prandu
+SFX x hi u [cg]hi 
+SFX x i u dhi
+SFX x i is i # discutis
+SFX x i it i # ..
+SFX x i eus i 
+SFX x i eis i
+SFX x i int i
+SFX x i emu i  
+SFX x i iast i  # 
+SFX x i ias i #
+SFX x i iat i  # 
+SFX x i emus i  #  
+SFX x i estus i  #  
+SFX x i iant i  # 
+SFX x i aus [^cgh] i # 
+SFX x hi aus [cg]hi 
+SFX x i aus dhi
+SFX x i iaus [cg]i 
+SFX x i ais [^cgh] i # 
+SFX x hi ais [cg]hi 
+SFX x i ais dhi
+SFX x i iais [cg]i 
+SFX x i a [^cgh] i #
+SFX x hi a [cg]hi 
+SFX x i a dhi
+SFX x i a [cg]i 
+SFX x i as [^cgh] i #
+SFX x hi as [cg]hi 
+SFX x i as dhi
+SFX x i as [cg]i 
+SFX x i at [^cgh] i #
+SFX x hi at [cg]hi 
+SFX x i at dhi
+SFX x i at [cg]i 
+SFX x i ant [^cgh] i #
+SFX x hi ant [cg]hi 
+SFX x i ant dhi
+SFX x i ant [cg]i 
+SFX x i essi i  #  finessi
+SFX x i essis i  #  finessis
+SFX x i essit i  #  finessit
+SFX x i éssimus i  #  finéssimus
+SFX x i estis i  #  finestis
+SFX x i essint i  #  finessint
+SFX x i ei/def i  #  finei
+SFX x i i/def i  #  finimí
+SFX x i endi/def i
+SFX x i endu/def i
+
+SFX y Y 17
+SFX y imi ìmiu/D imi # esprimi
+SFX y isti ístu/D isti # arresisti
+SFX y iti ítiu/D iti # promiti
+SFX y ivi íviu/D ivi #bivi
+SFX y ompi ómpiu/D ompi # lompi
+SFX y osci ósciu/D osci # arrosci
+SFX y ovi óviu/D ovi # movi
+SFX y udi údiu/D udi # illudi
+SFX y ulli úlliu/D ulli # mulli
+SFX y undi úndiu/D undi # tundi
+SFX y usi úsiu/D usi # tradusi
+SFX y xi xu/D xi # praxi
+SFX y oci otu/D oci # troci
+SFX y ui utu/D ui # allui
+SFX y ci tu/D ci # binci
+SFX y gi tu/D gi # acingi
+SFX y ghi tu/D ghi #
+
+REP 24
+REP d dh
+REP dh d
+REP dd dh
+REP dh dd
+REP d dd
+REP dd d
+REP ff f
+REP pp p
+REP cc c
+REP tt t
+REP vv v
+REP z tz
+REP zz tz
+REP mm m
+REP m mm
+REP b bb
+REP bb b
+REP j i
+REP i j
+REP y i
+REP ny gn
+REP gn nn
+REP nn gn
+REP q c
+
+
+MAP 5
+MAP aáàâ
+MAP eèé
+MAP iìí
+MAP oòó
+MAP uùú
+
