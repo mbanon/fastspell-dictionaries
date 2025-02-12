@@ -1,0 +1,24 @@
+Informazions gjenerâls
+----------------------
+I dizionaris furlans pai coretôrs ortografics MySpell/OpenOffice, Ispell e
+Aspell a son stâts otignût metint adun lis peraulis dal Grant Dizionari Bilengâl
+Talian-Furlan e chês dal dizionari par Aspell dât fûr de Societât Sientifiche e
+Tecnologjiche Furlane (www.siencis-par-furlan.net).
+Cun di plui e je stade zontade la flession interogative-otative par ducj i verps
+presints tal Grant Dizionari.
+I dizionaris a son dât fûr sot de GNU General Public License (GPL) che il test
+si cjatilu tal file "COPYING.txt" e la traduzion no uficiâl par furlan in
+"LICENCE.txt"
+
+
+Notis par Aspell
+----------------
+1 - La tabele des trasformazions fonetichis (fu_phonet.dat) e je cjapade di
+plante fûr dal dizionari de SSTF.
+2 - Il Furlan al à come codiç di rapresentazion dal non de lenghe (ISO 639) dome
+chel a trê letaris 'fur' e no ancje chel a dôs letaris. Tant e tant in cheste
+version dal dizionari, come in chê de SSTF, si dopre sicu codiç 'fu', stant che
+Aspell nol gjestìs ben codiçs a trê letaris.
+
+
+Autôr : Franz 'Pagan' (paganf@katamail.com)

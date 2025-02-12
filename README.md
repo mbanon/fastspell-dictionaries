@@ -12,6 +12,8 @@ MAI dictionaries from https://code.google.com/archive/p/bhashaghar/
 
 FI dictionaries are from https://github.com/fluks/fi-FI-mozilla-spellchecker
 
+FUR dictionaries from https://digilander.libero.it/paganf/coretors/dizionaris.html (converted from Aspell)
+
 HBS dictionaries by Nikola Ljubešić.
 
 ML dictionaries from http://git.savannah.gnu.org/cgit/smc.git/tree/spellcheck/hunspell-ml
