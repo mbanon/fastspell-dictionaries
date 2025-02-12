@@ -6,7 +6,7 @@ AF, AST, AZ, CS, CY, ES, FA, IS, KK, KN, KY, LV, MK, MN, MR, SK, SO, TE, TI, TR,
 
 AM and PAP dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/
 
-AWA and BHO dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
+AWA, BHO and MAG dictionaries from https://sanskritdocuments.org/hindi/hunspell.html
 
 MAI dictionaries from https://code.google.com/archive/p/bhashaghar/
 
@@ -17,6 +17,8 @@ HBS dictionaries by Nikola Ljubešić.
 ML dictionaries from http://git.savannah.gnu.org/cgit/smc.git/tree/spellcheck/hunspell-ml
 
 MS dictionaries from https://sourceforge.net/projects/aoo-extensions/
+
+QU dictionaries from https://git.almalinux.org/rpms
 
 SZL dictionaries from Firefox Extensions
 
