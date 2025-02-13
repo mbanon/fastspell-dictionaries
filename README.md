@@ -30,6 +30,8 @@ TG dictionaries from https://www.tajlingvo.tj/en/tajik-hunspell-dictionary
 
 UR dictionaries are from the Arch Linux repository
 
+VEC dictionaries from https://extensions.libreoffice.org/
+
 YI dictionaries from https://github.com/alephreish/hunspell-yi
 
 The rest are from https://github.com/wooorm/dictionaries
