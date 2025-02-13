@@ -2,7 +2,7 @@
 
 Dictionaries AN, AR, BE, BN, BS, DE, EN, GUG, GU, HE, HI, ID, LO, NE, SC, SR, SQ, TH are from https://github.com/LibreOffice/dictionaries
 
-AF, AST, AZ, CS, CY, ES, FA, IS, KK, KN, KY, LV, MK, MN, MR, SK, SO, TE, TI, TR, TT, UZ dictionaries from http://hlt.sztaki.hu/
+AF, AST, AZ, CS, CY, ES, FA, IS, KK, KN, KY, LV, MK, MN, MR, QU, SK, SO, TE, TI, TR, TT, UZ dictionaries from http://hlt.sztaki.hu/
 
 AM and PAP dictionaries from https://github.com/elastic/hunspell/tree/master/dicts/
 
