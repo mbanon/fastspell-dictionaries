@@ -1,6 +1,6 @@
 [project]
 name = "fastspell-dictionaries"
-version = "3.3"
+version = "3.4"
 license = {file = "LICENSE"}
 readme = "README.md"
 description = "Hunspell dictionaries for FastSpell"
